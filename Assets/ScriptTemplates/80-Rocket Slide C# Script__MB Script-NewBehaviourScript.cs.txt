@@ -1,0 +1,27 @@
+/*
+ * This file is subject to the terms and conditions defined in the file License.md, which is part of the source code package.
+ * All Rights Reserved.  Copyright (c) 2021 Rocket Slide
+*/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    #region Members
+    private const string DName = nameof(#SCRIPTNAME#);  // Debug name
+    #endregion Members
+
+    #region Properties
+    #endregion Properties
+
+    #region MonoBehaviours
+    #endregion MonoBehaviours
+
+    #region Methods
+    #endregion Methods
+
+    #region Helpers
+    #endregion Helpers
+}
