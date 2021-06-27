@@ -1,0 +1,31 @@
+/*
+ * This file is subject to the terms and conditions defined in the file License.md, which is part of the source code package.
+ * All Rights Reserved.  Copyright (c) 2021 Rocket Slide
+*/
+
+using UnityEngine;
+using UnityEditor;
+
+[InitializeOnLoad]
+public static class #SCRIPTNAME#
+{
+    #region Members
+    private const string DName = nameof(#SCRIPTNAME#); // Debug name
+    #endregion Members
+
+    #region Properties
+    #endregion Properties
+
+    #region Ctor
+    static #SCRIPTNAME#()
+    {
+        // insert ctor logic here
+    }
+    #endregion Ctor
+
+    #region Methods
+    #endregion Methods
+
+    #region Helpers
+    #endregion Helpers
+}

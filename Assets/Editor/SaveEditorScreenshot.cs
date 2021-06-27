@@ -3,6 +3,7 @@
  * All Rights Reserved.  Copyright (c) 2021 Rocket Slide
 */
 
+using System.Linq;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
@@ -18,7 +19,6 @@ public class SaveEditorScreenshot
     #endregion Members
 
     #region Properties
-    // private string Filename 
     #endregion Properties
 
     #region Ctor
@@ -53,9 +53,9 @@ public class SaveEditorScreenshot
         var sizeX = (int)activeWindow.position.width;
         var sizeY = (int)activeWindow.position.height;
 
-        var colors = InternalEditorUtility.ReadScreenPixel(vector2Pos, sizeX, sizeY);
+        var colors = InternalEditorUtility.ReadScreenPixel(vector2Pos, sizeX, sizeY).Cast<Color32>().ToArray();
         var result = new Texture2D(sizeX, sizeY);
-        result.SetPixels(colors);
+        result.SetPixels32(colors);
 
         var bytes = result.EncodeToPNG();
         Object.DestroyImmediate(result);
