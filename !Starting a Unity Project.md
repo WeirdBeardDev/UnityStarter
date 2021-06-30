@@ -5,12 +5,14 @@
 * did we create additional `Editor` scripts
 * did we update the `.gitignore`
 * did we update the `.editorconfig`
-* is there an update to `Microsoft.Unity.Analyzers.dll` - v1.10.0.0
+* is there an update to `Microsoft.Unity.Analyzers.dll` - v1.11.0.0
 * is there an update to [spine](http://en.esotericsoftware.com/spine-unity-download) - v3.8-2021-04-12
 
 ## New Project
 * create new unity project
   * make sure Unity Hub uses the correct version of Unity
+* add define `ENABLE_LOGS`
+  * Go to Edit > Project Settings... > Player > Scripting Define Symbols
 
 ## Packages
 reconfigure the packages to have only the following

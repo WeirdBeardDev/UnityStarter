@@ -5,6 +5,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using SpaceMonkeys.Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -39,6 +40,7 @@ public class RocketSlide : Singleton<RocketSlide>
         Log(DNAME, "quitting the game.");
         Application.Quit();
     }
+	[Conditional("ENABLE_LOGS")]
     public static void Log(string className, string text) => print($"{className}: {text}");
     #endregion Methods
 
