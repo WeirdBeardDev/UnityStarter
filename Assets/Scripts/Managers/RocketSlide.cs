@@ -1,6 +1,6 @@
 /*
  * This file is subject to the terms and conditions defined in the file License.md, which is part of the source code package.
- * All Rights Reserved.  Copyright (c) 2021 Studio B
+ * All Rights Reserved.  Copyright (c) 2021 Rocket Slide
 */
 
 using System.Collections;
