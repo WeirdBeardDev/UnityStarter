@@ -17,6 +17,7 @@
 ## Packages
 reconfigure the packages to have only the following
 * 2D Sprite
+* Cinemachine
 * ProBuilder
 * Test Framework
 * TextMeshPro
@@ -25,13 +26,11 @@ reconfigure the packages to have only the following
 * Timeline
 * VS Code Editor
 * VS Editor
-* add: WebGL Publisher package to standard setup
-  * discuss with team about publishing our projects to Unity Play
+* WebGL Publisher
 
 ## Assets Folder
 * add: `Animations` folder and placeholder
 * add: `Editor` folder
-  * add: `SaveOnRun.cs`
 * add: `Gizmos` folder and placeholder
 * add: `Materials` folder and placeholder
 * add: `Prefabs` folder and placeholder
@@ -49,7 +48,7 @@ reconfigure the packages to have only the following
 * add: `.editorconfig`
 * add: `.gitignore`
 * add: `omnisharp.json`
-* add: `README.md`
+* add: `readme.md`
 
 ## Asset Packages
 * install: [spine](http://en.esotericsoftware.com/spine-unity-download) package
@@ -68,33 +67,5 @@ reconfigure the packages to have only the following
 * push the existing local repo to GitHub
 * go to GitHub project Settings
   * go to Manage Access
-    * invite: Johnathan (johnathanfeezy)
-    * invite: Tim (timodamn)
-* create a wiki for the project
-  * each page should have a **Page Contents** section for the table of contents
-  * create a Home page
-    * describe the purpose of each section of the wiki
-    * add a Project Schedule section
-    * add a Project Structure And Staff section
-    * add a Reference Games, Art, And Ideas section
-  * create a General Notes page
-  * create a Game Design Document page
-    * add a Overall Vision of Game section
-    * add a Definitions section
-    * add a Design Pillars section
-    * create an Audio Style page
-    * create a Core Game Loop page
-    * create a Marketing and Monetization page
-    * create a Notable NPCs page
-    * create a Replayability and Expandability page
-    * create a Storyline page
-    * create a Visual Style page
-  * create a Game Technical Document page
-    * add Project Meta Details section
-    * create a UX Designs page
-  * create a Mechanics page
-    * create a list of Primary, Secondary, and Additional mechanics
-    * create a page for each mechanic
-  * create a Technical Notes page
-    * create a Unity section
-    * create a GitHub section
+    * invite team members
+      * invite: Tim (timodamn)
