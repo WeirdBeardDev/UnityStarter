@@ -1,5 +1,5 @@
 # Project Notes
-Create a wiki (add link here) to describe the details of this project.
+See our Codecks project (add link here) for details of this project.
 
 ---
 
@@ -17,7 +17,6 @@ Create a wiki (add link here) to describe the details of this project.
 # Credit List
 ## People
 - Dev: Aj [itch profile](https://weirdbearddev.itch.io/), [Twitter](https://twitter.com/weirdbearddev), [Blog](https://weirdbearddev.com)
-- Dev: Derek
 - Art: Timofey [itch profile](https://timofeydraws.itch.io), [Instagram](https://www.instagram.com/timofey.draws/), [Patreon](https://www.patreon.com/timofeydraws/posts)
 
 ## Other Assets
