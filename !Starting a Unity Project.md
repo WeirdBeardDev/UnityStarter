@@ -61,10 +61,17 @@ reconfigure the packages to have only the following
 
 ## Git
 * close Unity - ensures all Unity changes are written to disk
-* create git repo - use `main`
-* add all files and commit everything locally
-* create project at GitHub
-* push the existing local repo to GitHub
+
+In the project's local folder run the following commands.  This assumes [GitHub CLI](https://cli.github.com/) is installed.
+
+```
+git init
+git add .
+git commit -am "Initial commit"
+gh repo create --private
+git push --set-upstream origin main
+```
+
 * go to GitHub project Settings
   * go to Manage Access
     * invite team members
