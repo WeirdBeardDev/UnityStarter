@@ -58,6 +58,7 @@ reconfigure the packages to have only the following
 ## VS Code
 * open: `SaveOnRun.cs` in VSCode to create `.vscode` folder entries
 * add: debugger setup - `launch.json`
+  * if file is copied then update the "Unity Editor" path
 
 ## Git
 * close Unity - ensures all Unity changes are written to disk
