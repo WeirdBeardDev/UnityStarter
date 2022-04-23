@@ -5,7 +5,7 @@
 
 using UnityEngine;
 
-namespace SpaceMonkeys.Core
+namespace WeirdBeardDev
 {
     public class Singleton<T> : MonoBehaviour where T : Component
     {

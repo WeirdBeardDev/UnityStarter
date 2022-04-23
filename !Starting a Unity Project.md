@@ -5,7 +5,7 @@
 * did we create additional `Editor` scripts
 * did we update the `.gitignore`
 * did we update the `.editorconfig`
-* is there an update to `Microsoft.Unity.Analyzers.dll` - v1.11.0.0
+* is there an update to `Microsoft.Unity.Analyzers.dll` - v1.11.2.0
 * is there an update to [spine](http://en.esotericsoftware.com/spine-unity-download) - v3.8-2021-04-12
 
 ## New Project
@@ -49,6 +49,7 @@ reconfigure the packages to have only the following
 * add: `.gitignore`
 * add: `omnisharp.json`
 * add: `readme.md`
+* add: `.vscode\launch.json`
 
 ## Asset Packages
 * install: [spine](http://en.esotericsoftware.com/spine-unity-download) package
