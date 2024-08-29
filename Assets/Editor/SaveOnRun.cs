@@ -11,7 +11,7 @@ using UnityEditor.SceneManagement;
 public class SaveOnRun
 {
     #region Members
-    public const string MenuName = "RocketSlide/Save On Run";
+    public const string MenuName = "Beardo/Save On Run";
     private static bool _isEnabled = false;
     #endregion Members
 
